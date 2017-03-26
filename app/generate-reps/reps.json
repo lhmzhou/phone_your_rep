@@ -9309,7 +9309,7 @@
         "latitude": 38.583455,
         "longitude": -121.4987519,
         "v_card_link": "https://phone-your-rep.herokuapp.com/v_cards/M001163-sacramento",
-        "downloads": 8,
+        "downloads": 9,
         "qr_code_link": "https://s3.amazonaws.com/phone-your-rep-images/M001163_sacramento.png"
       }
     ]
@@ -9607,7 +9607,7 @@
         "latitude": 38.7438059,
         "longitude": -121.2464852,
         "v_card_link": "https://phone-your-rep.herokuapp.com/v_cards/M001177-roseville",
-        "downloads": 16,
+        "downloads": 17,
         "qr_code_link": "https://s3.amazonaws.com/phone-your-rep-images/M001177_roseville.png"
       }
     ]
@@ -28366,7 +28366,7 @@
         "latitude": 38.583455,
         "longitude": -121.4987519,
         "v_card_link": "https://phone-your-rep.herokuapp.com/v_cards/H001075-sacramento",
-        "downloads": 49,
+        "downloads": 50,
         "qr_code_link": "https://s3.amazonaws.com/phone-your-rep-images/H001075_sacramento.png"
       },
       {
@@ -38656,7 +38656,7 @@
         "latitude": 38.8871071,
         "longitude": -77.0104749,
         "v_card_link": "https://phone-your-rep.herokuapp.com/v_cards/G000563-capitol",
-        "downloads": 0,
+        "downloads": 1,
         "qr_code_link": "https://s3.amazonaws.com/phone-your-rep-images/G000563_capitol.png"
       },
       {
