@@ -10,7 +10,7 @@ nav{
 }
 #logo {
     font-family: 'Cluck Your Rep', sans-serif;
-    font-size: 4rem;
+    font-size: 5rem;
     text-decoration: none;
     display: block;
     text-align: center;
@@ -269,6 +269,9 @@ footer{
 }
 .footer-icon:hover{
 	color: #d2d2d2;
+}
+#tax-march-link{
+  font-size: 150%;
 }
 
 
