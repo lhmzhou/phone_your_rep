@@ -14,17 +14,17 @@
 	<meta property="og:url" content="{{thisURL first last}}" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="{{official_full}}'s Contact Info" />
-	<meta property="og:description" content="Download all of {{official_full}}'s contact info straight to your phone. Then call them every day." />
-	<meta property="og:image" content="http://www.phoneyourrep.com/reps/images/twitter_meta_card.png" />
-	<meta property="fb:app_id" content="1666802596950475" />
+	<meta property="og:description" content="Download all of {{official_full}}'s contact info straight to your phone. Then call them every day about the chicken's taxes." />
+	<meta property="og:image" content="https://tax-march.github.io/phone_your_rep/reps/images/twitter_meta_card.png" />
+	<meta property="fb:app_id" content="278629969249479" />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content="@phoneyourrep" />
 	<meta name="twitter:creator" content="@prog_code" />
 	<meta name="twitter:url" content="{{thisURL first last}}" />
 	<meta name="twitter:title" content="{{official_full}}'s Contact Info" />
-	<meta name="twitter:description" content="Download all of {{official_full}}'s contact info straight to your phone. Then call them every day." />
-	<meta name="twitter:image" content="http://www.phoneyourrep.com/reps/images/twitter_meta_card.png" />
-	<meta name="twitter:image:alt" content="U.S. Capitol" />
+	<meta name="twitter:description" content="Download all of {{official_full}}'s contact info straight to your phone. Then call them every day about the chicken's taxes." />
+	<meta name="twitter:image" content="https://tax-march.github.io/phone_your_rep/reps/images/twitter_meta_card.png" />
+	<meta name="twitter:image:alt" content="Tax Chicken" />
 
 	<!-- Fonts && Font Awesome -->
 	<link href="https://fonts.googleapis.com/css?family=Raleway|Open+Sans|Alfa+Slab+One" rel="stylesheet">
@@ -55,7 +55,8 @@
 	<div class="wrapper">
 		<nav style="position:relative; background-image: url('../images/header.png')">
 			<!-- Fix for Deployment -->
-			<a href="https://tax-march.github.io/phone_your_rep/" id="logo">Cluck Your Rep</a>
+			<a href="https://tax-march.github.io/phone_your_rep/" id="logo" class="font-yellow font-emphasis">Cluck Your Rep</a>
+      <h2 class="font-cluck-your-rep font-white font-emphasis center" style="padding-bottom: 3rem">Call Congress!</h2>
 		</nav>
 
 		<div class="body-content">
@@ -66,41 +67,42 @@
 					<div class="col-12 center">
 						<div class="card row">
 							<div class="col-4">
-								<img class="card-photo" src="{{photo}}">
+								<img class="card-photo" src="{{photo photo}}">
 
 								<div class="card-social">
 									{{{socialLink "" url "fa-desktop"}}}
 									{{{socialLink "https://www.youtube.com/user/" youtube "fa-youtube-play"}}}
-									{{{socialLink "https://www.twitter.com/" twiter "fa-twitter"}}}
+									{{{socialLink "https://www.twitter.com/" twitter "fa-twitter"}}}
 									{{{socialLink "https://www.facebook.com/" facebook "fa-facebook"}}}
 									{{{socialLink "https://www.instagram.com/" instagram "fa-instagram"}}}
 								</div>
 							</div>
 							<div class="col-8">
 								<div class="card-name">
-									<h3 class="card-member">{{official_full}}</h3>
-									<p class="card-chamber">{{role}}</p>
+									<h3 class="card-member font-cluck-your-rep">{{official_full}}</h3>
+									<p class="card-chamber font-fjalla">{{role}}</p>
+                  <img class="card-party" src="../images/{{partyInitial party}}.png"></img>
 								</div>
 								<div class="card-office-list">
 									{{#each office_locations}}
 										<div class="card-office">
 											<div class="card-office-btn">
-												<div class="card-office-btn-office"><i class="fa fa-caret-up fa-white card-office-btn-caret" aria-hidden="true"></i>
-													<h1 class="card-office-btn-name font-white">
+												<div class="card-office-btn-office"><i class="fa fa-plus font-beige card-office-btn-caret" aria-hidden="true"></i>
+													<h1 class="card-office-btn-name font-beige font-cluck-your-rep">
 														{{city}}
 													</h1>
 												</div>
-												<a class="font-white" href="{{v_card_link}}">
-													<div class="card-office-btn-link"><i class="fa fa-download fa-white" aria-hidden="true"></i></div>
+												<a class="font-beige" href="{{v_card_link}}">
+													<div class="card-office-btn-link"><i class="fa fa-download font-beige" aria-hidden="true"></i></div>
 												</a>
 												<div class="spacer"></div>
 											</div>
 											<div class="card-office-panel row hidden">
 												<div class="row">
 													<div class="col-6 card-office-panel-phone"><i class="fa fa-phone-square fa-icon fa-fw " aria-hidden="true"></i>
-														<p><a href="tel:{{phone}}">{{phone}}</a></p>
+														<p><a href="tel:{{phone}}" class="font-fjalla">{{phone}}</a></p>
 													</div>
-													<div class="col-6 card-office-panel-office "><i class="fa fa-building fa-icon fa-fw " aria-hidden="true"></i>
+													<div class="col-6 card-office-panel-office font-fjalla"><i class="fa fa-building fa-icon fa-fw " aria-hidden="true"></i>
 														<p>{{ifNull building}}</p>
 														<p>{{address}} {{suite}}</p>
 														<p>{{city}}{{state}}{{zip}}</p>
@@ -108,7 +110,7 @@
 												</div>
 												<div class="row card-office-panel-hours">
 													<div class="col-12 ">
-														<p class="font-white">{{hours hours}}</p>
+														<p class="font-yellow font-fjalla">{{hours hours}}</p>
 													</div>
 												</div>
 											</div>
@@ -127,17 +129,23 @@
 
 	<footer>
 		<div class="row footer-info">
-			<div class="col-12 footer-links">
+      <div class="col-12 footer-links">
         <a href="https://twitter.com/taxmarchnyc" target="blank">
           <i class="fa fa-twitter font-white footer-icon" aria-hidden="true"></i>
         </a>
         <a href="https://www.facebook.com/events/1249102311848821/" target="blank" style="padding-left: 1rem;">
           <i class="fa fa-facebook font-white footer-icon" aria-hidden="true"></i>
         </a>
+        <a href="https://www.reddit.com/r/taxmarch/" target="blank" style="padding-left: 1rem;">
+          <i class="fa fa-reddit-alien font-white footer-icon" aria-hidden="true"></i>
+        </a>
         <a href="https://github.com/tax-march/" target="blank" style="padding-left: 1rem;">
           <i class="fa fa-github font-white footer-icon" aria-hidden="true"></i>
         </a>
-			</div>
+      </div>
+      <div class="col-12 footer-links">
+        <a id="tax-march-link" href="http://taxmarch.org" target="blank" class="font-cluck-your-rep font-white footer-icon">taxmarch.org</a>
+      </div>
 		</div>
 	</footer>
 
@@ -151,12 +159,12 @@
 					$(this).addClass("hidden")
 				})
 
-				$(".card").find(".fa-caret-down").removeClass("fa-caret-down").addClass("fa-caret-up")
+				$(".card").find(".fa-minus").removeClass("fa-caret-down").addClass("fa-plus")
 
 				//If it was hidden, reveal it
 				if(hidden) {
 					$(this).parent(".card-office").children(".card-office-panel").removeClass("hidden")
-					$(this).parent(".card-office").find(".fa-caret-up").removeClass("fa-caret-up").addClass("fa-caret-down")
+					$(this).parent(".card-office").find(".fa-plus").removeClass("fa-plus").addClass("fa-minus")
 				}
 			})
 		});
