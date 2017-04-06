@@ -13,19 +13,19 @@ export default class Office extends React.Component {
 		var togglePanel = this.props.togglePanel;
 		var officeId = this.props.officeId;
 		var isHidden = (this.props.toggleOfficeId == officeId) ? "" : "hidden";
-		var caret = (this.props.toggleOfficeId == officeId) ? "fa fa-minus fa-white card-office-btn-caret" :  "fa fa-plus fa-white card-office-btn-caret"
+		var caret = (this.props.toggleOfficeId == officeId) ? "fa fa-minus font-beige card-office-btn-caret" :  "fa fa-plus font-beige card-office-btn-caret"
 
         return (
             <div className="card-office">
 				<div className="card-office-btn" onClick={function(e){ togglePanel(officeId); }}>
 					<div className="card-office-btn-office">
 						<i className={caret} aria-hidden="true"></i>
-						<h1 className="card-office-btn-name font-white">{office}</h1>
+						<h1 className="card-office-btn-name font-beige">{office}</h1>
 					</div>
 
-					<a className="font-white" href={this.props.office.v_card_link}>
+					<a className="font-beige" href={this.props.office.v_card_link}>
 						<div className="card-office-btn-link">
-							<i className="fa fa-download fa-white" aria-hidden="true"></i>
+							<i className="fa fa-download font-beige" aria-hidden="true"></i>
 						</div>
 					</a>
 
@@ -50,7 +50,7 @@ export default class Office extends React.Component {
 					</div>
 					<div className="row card-office-panel-hours">
 						<div className="col-12 ">
-							<p className="font-white">{hours}</p>
+							<p className="font-yellow">{hours}</p>
 						</div>
 					</div>
                 </div>
