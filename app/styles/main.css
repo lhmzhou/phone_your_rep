@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'Drone Ranger';
+    src: url('https://tax-march.github.io/phone_your_rep/droneranger-webfont.woff2') format('woff2'),
+         url('https://tax-march.github.io/phone_your_rep/droneranger-webfont.woff') format('woff'),
+         url('https://tax-march.github.io/phone_your_rep/droneranger.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
 nav {
     margin: 0 auto;
     padding: 4rem 0;
@@ -9,7 +18,7 @@ nav{
 	background-size: cover;
 }
 #logo {
-    font-family: 'Alfa Slab One', sans-serif;
+    font-family: 'Drone Ranger', sans-serif;
     font-size: 4rem;
     text-decoration: none;
     display: block;
