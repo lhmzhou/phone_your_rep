@@ -1,8 +1,8 @@
 @font-face {
-    font-family: 'Drone Ranger';
-    src: url('https://tax-march.github.io/phone_your_rep/droneranger-webfont.woff2') format('woff2'),
-         url('https://tax-march.github.io/phone_your_rep/droneranger-webfont.woff') format('woff'),
-         url('https://tax-march.github.io/phone_your_rep/droneranger.ttf') format('truetype');
+    font-family: 'Cluck Your Rep';
+    src: url('https://tax-march.github.io/phone_your_rep/font.woff2') format('woff2'),
+         url('https://tax-march.github.io/phone_your_rep/font.woff') format('woff'),
+         url('https://tax-march.github.io/phone_your_rep/font.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
@@ -18,7 +18,7 @@ nav{
 	background-size: cover;
 }
 #logo {
-    font-family: 'Drone Ranger', sans-serif;
+    font-family: 'Cluck Your Rep', sans-serif;
     font-size: 4rem;
     text-decoration: none;
     display: block;
@@ -309,6 +309,9 @@ footer{
 }
 .font-alfa-slab-one {
 	font-family: 'Alfa Slab One', sans-serif;
+}
+.font-cluck-your-rep {
+  font-family: 'Cluck Your Rep', sans-serif;
 }
 
 .fa-icon{
