@@ -49,6 +49,15 @@ module.exports = {
         ]),
         new CopyWebpackPlugin([
           {from: 'app/styles/main.css'}
+        ]),
+        new CopyWebpackPlugin([
+          {from: 'app/styles/droneranger.ttf'}
+        ]),
+        new CopyWebpackPlugin([
+          {from: 'app/styles/droneranger-webfont.woff'}
+        ]),
+        new CopyWebpackPlugin([
+          {from: 'app/styles/droneranger-webfont.woff2'}
         ])//,
         // new CopyWebpackPlugin([
         //   {from: 'CNAME'}
