@@ -332,7 +332,6 @@ footer{
 	}
 	.card-office-btn-office{
     	cursor: pointer;
-		display: inline-block;
 	}
 	.card-office-btn-link{
 		float: none;
