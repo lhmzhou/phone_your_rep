@@ -103,7 +103,7 @@ nav{
 	width: 70%;
 	max-width: 60rem;
 	margin: 0 auto;
-	border: 4px solid #F10D1B;
+	border: 4px solid #319848;
 }
 
 /* Photo */
@@ -160,14 +160,14 @@ nav{
 	position: absolute;
     color: #000;
     text-decoration: none;
-    font-family: "Lato", sans-serif;
+    font-family: "Fjalla One", sans-serif;
     font-style: italic;
     font-size: 1rem;
     right: 0;
     top: 0;
     width: 4rem;
     height: 100%;
-    background: #F10D1B;
+    background: #319848;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -175,7 +175,7 @@ nav{
 .card-office-panel{
 	box-sizing: border-box;
 	width: 100%;
-	border: 4px solid #F10D1B;
+	border: 4px solid #319848;
 }
 .card-office-panel-hours{
 	background: #204152;
@@ -306,6 +306,14 @@ footer{
 }
 .font-cluck-your-rep {
   font-family: 'Cluck Your Rep', sans-serif;
+}
+.font-fjalla{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 120%;
+}
+.font-boogaloo{
+  font-family: 'Boogaloo', cursive;
+  font-size: 130%;
 }
 
 .fa-icon{

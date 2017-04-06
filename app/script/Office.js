@@ -20,7 +20,7 @@ export default class Office extends React.Component {
 				<div className="card-office-btn" onClick={function(e){ togglePanel(officeId); }}>
 					<div className="card-office-btn-office">
 						<i className={caret} aria-hidden="true"></i>
-						<h1 className="card-office-btn-name font-beige">{office}</h1>
+						<h1 className="card-office-btn-name font-beige font-cluck-your-rep">{office}</h1>
 					</div>
 
 					<a className="font-beige" href={this.props.office.v_card_link}>
@@ -37,11 +37,11 @@ export default class Office extends React.Component {
 						<div className="col-6 card-office-panel-phone">
 							<i className="fa fa-phone-square fa-icon fa-fw " aria-hidden="true"></i>
 							<p>
-								<a href={tel_link}>{this.props.office.phone}</a>
+								<a href={tel_link} className="font-fjalla">{this.props.office.phone}</a>
 							</p>
 						</div>
 
-						<div className="col-6 card-office-panel-office ">
+						<div className="col-6 card-office-panel-office font-fjalla">
 							<i className="fa fa-building fa-icon fa-fw " aria-hidden="true"></i>
 							<p>{building}</p>
 							<p>{address}</p>
@@ -50,7 +50,7 @@ export default class Office extends React.Component {
 					</div>
 					<div className="row card-office-panel-hours">
 						<div className="col-12 ">
-							<p className="font-yellow">{hours}</p>
+							<p className="font-yellow font-fjalla">{hours}</p>
 						</div>
 					</div>
                 </div>

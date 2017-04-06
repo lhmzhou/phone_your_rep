@@ -5,10 +5,10 @@ export default class SocialLink extends React.Component {
 	render() {
 		return (
 			<div className="card-name">
-				<h3 className="card-member">
+				<h3 className="card-member font-cluck-your-rep">
 					{this.props.name}
 				</h3>
-				<p className="card-chamber">
+				<p className="card-chamber font-fjalla">
 					{this.props.chamber}
 				</p>
 				<img className="card-party" src={require('../images/' + this.props.party.toLowerCase() + '.png')}></img>
