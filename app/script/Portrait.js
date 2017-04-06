@@ -25,7 +25,7 @@ export default class Portrait extends React.Component {
 	}
 
 	imageNotFound(){
-		this.setState({link: "./app/images/person.png"})
+		this.setState({link: "https://tax-march.github.io/phone_your_rep/reps/images/person.png"})
 	}
 
 	render() {
