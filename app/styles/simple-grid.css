@@ -8,9 +8,9 @@
 /* UNIVERSAL */
 @font-face {
     font-family: 'Cluck Your Rep';
-    src: url('https://tax-march.github.io/phone_your_rep/font.woff2') format('woff2'),
-         url('https://tax-march.github.io/phone_your_rep/font.woff') format('woff'),
-         url('https://tax-march.github.io/phone_your_rep/font.ttf') format('truetype');
+    src: url('http://www.cluckyourrep.com/font.woff2') format('woff2'),
+         url('http://www.cluckyourrep.com/font.woff') format('woff'),
+         url('http://www.cluckyourrep.com/font.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
