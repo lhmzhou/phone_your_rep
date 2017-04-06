@@ -1,12 +1,3 @@
-@font-face {
-    font-family: 'Cluck Your Rep';
-    src: url('https://tax-march.github.io/phone_your_rep/font.woff2') format('woff2'),
-         url('https://tax-march.github.io/phone_your_rep/font.woff') format('woff'),
-         url('https://tax-march.github.io/phone_your_rep/font.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
 nav {
     margin: 0 auto;
     padding: 4rem 0;
@@ -30,7 +21,7 @@ nav{
 }
 .wrapper{
 	min-height: 85%;
-    background: #E0DFA6;
+    background: #fff;
 	padding-bottom: 8rem;
 }
 
